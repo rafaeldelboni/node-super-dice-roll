@@ -62,7 +62,7 @@ const calculateInput = (roll) => {
 }
 
 const errorMessage = 
-  'You must specify dice and modifiers in format: /roll <NDM>\n'+
+  'You must specify dice and modifiers in following format: /roll <NDM>\n'+
   'N = Number of dices\n'+
   'D = Type of dices (D6, D12, D20)\n'+
   'M = Modifiers (+1, -3)\n'+
