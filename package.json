@@ -1,0 +1,25 @@
+{
+  "name": "node-super-dice-roll",
+  "version": "1.0.0",
+  "description": "Super Dice Roll Telegram Bot (NodeJS Ed.)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [
+    "telegram",
+    "dice",
+    "roll",
+    "super"
+  ],
+  "author": "Rafael Delboni",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.1"
+  },
+  "devDependencies": {
+    "jest": "^20.0.1"
+  }
+}
