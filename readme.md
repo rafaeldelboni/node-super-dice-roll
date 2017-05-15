@@ -7,7 +7,7 @@ Super simple Telegram Bot for rolling dices using inlinequery or /roll command.
 
 ### Requirements
 
-To use this project you need a environment variable named TELEGRAM_TOKEN with your bot token granted by the [Bot Father](https://telegram.me/botfather).
+To use this project you need a environment variable named `TELEGRAM_TOKEN` with your bot token granted by the [Bot Father](https://telegram.me/botfather).
 
 ### Credits
 Icon by [delapouite.com](http://delapouite.com)
