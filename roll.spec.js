@@ -85,14 +85,14 @@ describe('Roll', () => {
       let parsedRoll = roll.parseMessage(inputMessage);
       let rollData = roll.calculateInput(parsedRoll);
       let outMessage = roll.outputMessage("Rafael", inputMessage, rollData);
-      expect(outMessage).toMatch("You must specify dice and modifiers in format: /roll");
+      expect(outMessage).toMatch("You must specify dice and modifiers in following format:");
     });
     it('Empty input message shouldnt parse and return error message', () => {
       let inputMessage = "";
       let parsedRoll = roll.parseMessage(inputMessage);
       let rollData = roll.calculateInput(parsedRoll);
       let outMessage = roll.outputMessage("Rafael", inputMessage, rollData);
-      expect(outMessage).toMatch("You must specify dice and modifiers in format: /roll");
+      expect(outMessage).toMatch("You must specify dice and modifiers in following format:");
     });
   });
 
