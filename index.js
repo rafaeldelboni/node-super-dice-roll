@@ -42,5 +42,5 @@ bot.onText(/\/roll (.+)/, (msg, match) => {
 bot.on('inline_query', function(msg)
 {
   let results = roll.getInlineDiceList(msg.from.username, msg.query)
-  bot.answerInlineQuery(msg.id, results);
+  bot.answerInlineQuery(msg.id, results, {cache_time: 0});
 });
